@@ -11,6 +11,7 @@ import java.util.Properties;
 public class LoggerControler {
     private static Logger logger = null;
     private static  LoggerControler logControler = null;
+    
     public  static LoggerControler getLogger(Class<?> T){
         if(logger==null){
             Properties properties = new Properties();
